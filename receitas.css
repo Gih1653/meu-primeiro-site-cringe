@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-color: #0f434d;
+    color: #e9eed0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    width: auto;
+}
+.botoes button{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  cursor: pointer;
+  font-size: 25px;
+  background: transparent;
+  color: antiquewhite;
+  border-radius: 10px;  
+  border: none;
+}
+
+.botoes{
+    display: flex;
+    gap: 50px;
+}
+ 
+.logo img{
+    max-width: 150px;
+    
+}
+.logo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 25px;
+}
+main{
+    height: auto;
+    width: auto;
+}
+#container_receita{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 3em 8em;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#desenvolvedora{
+    text-decoration: none;
+    font-size: 25px;
+}
+footer{
+    background-color:black;
+    color: antiquewhite;
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    color: antiquewhite;
+}
